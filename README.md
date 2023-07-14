@@ -1,23 +1,28 @@
-# go-colors-lib
+# 🎨  go-colors-lib
 
 `go get -u github.com/appfriendly/go-colors-lib`
 
 
-## Список цветов
+## Список доступных изменений
 <br/>
 <ul>
-    <li>reset</li>
-    <li>red</li>
-    <li>green</li>
-    <li>yellow</li>
-    <li>blue</li>
-    <li>purple</li>
-    <li>cyan</li>
-    <li>grey</li>
-    <li>white</li>
+    <li>Reset</li>
+    <li>Bold</li>
+    <li>Underline</li>
+    <li>Strike</li>
+    <li>Italic</li>
+    <br/>
+    <li>Red</li>
+    <li>Green</li>
+    <li>Yellow</li>
+    <li>Blue</li>
+    <li>Purple</li>
+    <li>Cyan</li>
+    <li>Grey</li>
+    <li>White</li>
 </ul>
 <br/>
 
 ## Как использовать?
 
-`fmt.Println(colors.yellow(), "Hello World!")`
+`fmt.Println(colors.RED, "Hello World!")`
