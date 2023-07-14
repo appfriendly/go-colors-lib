@@ -1,37 +1,13 @@
 package colors
 
-func reset() string {
-	return "\033[0m"
-}
-
-func red() string {
-	return "\033[31m"
-}
-
-func green() string {
-	return "\033[32m"
-}
-
-func yellow() string {
-	return "\033[33m"
-}
-
-func blue() string {
-	return "\033[34m"
-}
-
-func purple() string {
-	return "\033[35m"
-}
-
-func cyan() string {
-	return "\033[36m"
-}
-
-func grey() string {
-	return "\033[37m"
-}
-
-func white() string {
-	return "\033[97m"
-}
+var (
+	Reset  = "\033[0m"
+	Red    = "\033[31m"
+	Green  = "\033[32m"
+	Yellow = "\033[33m"
+	Blue   = "\033[34m"
+	Purple = "\033[35m"
+	Cyan   = "\033[36m"
+	Grey   = "\033[37m"
+	White  = "\033[97m"
+)
